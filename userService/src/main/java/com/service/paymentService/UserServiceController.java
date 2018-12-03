@@ -17,7 +17,7 @@ public class UserServiceController {
 
     @GetMapping("/go")
     public String userGo(){
-        return restTemplate.getForObject("http://localhost:8001/payment/message",String.class) + "user service";
+        return restTemplate.getForObject("http://localhost:63252/payment/message",String.class) + "user service";
 //        return "this is the user service";
     }
 
