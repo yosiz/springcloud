@@ -3,6 +3,6 @@ spring:
     config:
       server:
         git:
-          uri:  https://github.com/yosiz/spring-cloud-config.git
+          uri: https://github.com/yosiz/spring-cloud-config
 server:
   port: 9999

@@ -6,10 +6,7 @@
 	<groupId>com.config.server</groupId>
 	<artifactId>configServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>configfiles</module>
-    </modules>
-    <packaging>pom</packaging>
+	<packaging>jar</packaging>
 
 	<name>configServer</name>
 	<description>Demo project for Spring Boot</description>
